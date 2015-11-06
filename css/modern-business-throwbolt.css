@@ -1,0 +1,253 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+html, {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+html,
+body {
+   /***********************************************************************  color scheme   http://codecondo.com/15-color-scheme-pallete-generators-web-designers/         ****************************************/
+
+   /* background-image: url("../images/black_metal_texture.jpg");*/
+    /*background-image: url("../images/black_jean_texture.jpg");   */                                                     
+    background-image: url("../images/metal_wallpaper_textured.jpg"); 
+    /*background-image: url("../images/dark_pattern.jpg");*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 100%;
+    /*font-family: 'Russo One';*/
+   /* font-family: 'Black Ops One';*/
+/**********<h1 class="page-header">************/
+    font-family:Russo One, sans-serif;
+    font-size: 17px;
+    line-height: 1.42857;
+    color:#ffffff;
+    /*color: #000000;*/
+
+
+    text-shadow:1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    0px 1px 0 #000,
+    1px 0px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    4px 4px 3px #000;
+
+
+
+
+
+
+}
+
+/************  http://www.hexcolortool.com/#737373 ,  http://www.w3.org/Style/Examples/007/text-shadow.en.html#glow, http://css3gen.com/text-shadow/  **************/
+/************  no more outlining in css3,  text shadow properties to outline fuzzy, glow ect.  use links aboube.     **************/
+/************  http://thisischris.com/archives/2012/08/outlining-your-text-or-fun-with-css-text-shadows/  *************************/
+
+
+/*************************************added code **************************************/
+
+p { 
+    color: #337AB7;
+
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 50px 0px 20px;
+  /* text-shadow: 4px 4px 2px rgba(82, 249, 0, 1); */
+    font-family: 'Black Ops One';
+    border-bottom: border-bottom: 1px solid #EEE;
+}
+
+.page-header_1{
+    padding-bottom: 9px;
+    margin: 40px 0px 20px;
+  /* text-shadow: 4px 4px 2px rgba(82, 249, 0, 1); */
+    font-family: 'Black Ops One';
+    border-bottom: none;
+}
+
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Black Ops One, Russo One ;
+}
+
+
+.navbar-brand  {
+
+    font-family: Black Ops One;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Black Ops One, Russo One, inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#70c841;
+    /*color: #9D9D9D;*/
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857;
+    color:#c200ae;
+  /*  background-color: #70c841;*/
+    /*color: #8f0a00;*/
+    white-space: nowrap;
+} 
+/******************************************** line 112 - 129 was changed to keep H1 running across the rest of the screen on the right side in 018-cam***********/
+.col-md-4 {
+    
+    width: 49.3333%;
+}
+ 
+/*.col-md-4 {
+    
+    width: 36.3333%;
+}*/
+
+/*.col-md-4 {
+    47.3333%;
+}
+
+
+    /*a:hover {
+    background-color:#70c841;
+}*/
+
+
+.dropdown-menu {
+    font-size: 19px;
+    text-align: left;
+    list-style: outside none none;
+}
+
+//////////////////////////////////////////* .col-md-8 has been changed to 50% to allow for image size to remain unchanged and 
+preserve image quality.  I may be able to expand the <P> element to fill in for the empty space on the right.*//////////////
+.col-md-8 {
+   
+   color: #337AB7;
+   width: 66.6667%;
+}
+   
+.col-md-8 {
+   color: #337AB7;
+   width: 50%;
+}
+
+
+
+
+*******/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/************************below carousel images***************************/
+/*element {
+    background-image: url("http://placehold.it/1900x1080&text=Slide Three");
+}*/
+
+/********************************************************* end added code ******************************************/
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+    color: #70c841;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 30%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+
+    }
+}
+
+/*new custom code*/
+
+
+
+
